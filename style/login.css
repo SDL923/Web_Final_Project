@@ -32,6 +32,10 @@
     align-items: center;
 }
 
+.main_right h1{
+    font-family: 'Raleway', sans-serif;/* Add Font */
+}
+
 .form_container {
     width: 50%;
     padding: 20px;
