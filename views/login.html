@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="login.css" type="text/css">
+
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;800&family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+<body style="overflow: scroll;">
+
+    <div class="main_container">
+        <div class="main_left">
+            <img src="back_image.jpg" alt="no image" class="main_img">
+        </div>
+
+        <div class="main_right">
+            <div>
+                <h1>Welcome to my portfolio</h1>
+                
+                <div>
+                    <div id="loginForm" class="form_container">
+                        <h2>Login</h2>
+
+                        <label for="loginUsername">ID:</label>
+                        <input type="text" class="inputBox" id="login_input_id" name="loginUsername" required>
+                    
+                        <label for="loginPassword">Password:</label>
+                        <input type="password" class="inputBox" id="login_input_pw" name="loginPassword" required>
+                    
+                        <button type="button" class="button_login" id="button_login">Login</button>
+                        <p>Don't have an account? <a href="#" id="signup">Sign Up</a></p>
+                      </div>
+                    
+                      <div id="signupForm" class="form_container" style="display: none;">
+                        <h2>Sign Up</h2>
+                        <label for="signupUsername">ID:</label>
+                        <input type="text" class="inputBox" id="signup_input_id" name="signupUsername" placeholder="5 or more letters" required>
+                    
+                        <label for="signupPassword">Password:</label>
+                        <input type="password" class="inputBox" id="signup_input_pw" name="signupPassword" placeholder="should contain number" required>
+                    
+                        <label for="signupName">Name:</label>
+                        <input type="text" class="inputBox" id="signup_input_name" name="signupPassword" required>
+
+                        <button type="button" class="button_login" id="button_sign" onclick="signup()">Sign Up</button>
+                        <p>Already have an account? <a href="#" id="login">Login</a></p>
+                      </div>
+    
+                </div>
+
+                <div class="button_account" id="button_account">Account Management</div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+
+    <script src="login.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

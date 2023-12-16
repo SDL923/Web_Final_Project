@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <style>
+        body {
+          margin: 0;
+          
+        }
+        
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;800&family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+<body style="overflow: scroll;">
+
+    <div id="anchor_home" class="anchor"></div>
+    
+    <!-- To change the style of Bootstrap, I used the inline css method only for this part.  -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary" style="width: 90%; margin-left: 5%; margin-right: 5%; background-color:white !important; position: fixed; z-index: 1;"> <!-- expand-md에서 md, lg, xl크기 이하가 되면 햄버거메뉴 생기는 방식 -->
+        <div class="container-fluid">
+          <a class="navbar-brand" id="menu_logout" href="#" style="font-size: 16px !important;">&nbsp;Log Out</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="width: 40px; height: 30px;">
+            <span class="navbar-toggler-icon" style="width: 20px; height: 20px; margin-bottom: 5.5px; margin-left: -2.5px;"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav" style="float: right; font-size: 15px; cursor: pointer;"> <!--Change cursor to hand shape -->
+              <a id="menu_home" class="nav-link">HOME</a>
+              <a id="menu_about" class="nav-link">ABOUT</a>
+              <a id="menu_portfolio" class="nav-link">PORTFOLIO</a>
+              <a id="menu_bio" class="nav-link">PURCHASE</a>
+              <a id="menu_contack" class="nav-link">CONTACT</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div style="width: 100%; height: 60px;"></div>
+
+
+    <img src="img1_3.png" alt="no image" style="width: 88%; margin-left: 6%; margin-right: 6%;">
+
+    <div id="anchor_about" class="anchor"></div>
+
+    <div class="vertical_line"></div>
+
+    <div>
+        <h2 style="text-align: center;">
+            <span id="about" class="contents">01 about</span>
+        </h2>
+    </div>
+
+
+    <img id="img2" src="img2.jpg" alt="no img">
+
+    <div id="introduction">
+        <p id="introduction_p" >
+            <span>Soyoung Park is a product and furniture designer based in Seoul. She is currently studying in Hongik University as a Woodworking and Furniture Design major and an Industrial Product Design minor.</span>
+        </p>
+    </div>
+
+
+    <div class="vertical_line"></div>
+
+    <div id="anchor_portfolio" class="anchor"></div>
+    <div style="width: 100%; height: 20px; margin-bottom: 40px;"></div> <!-- empty block -->
+
+    <div id="portfolio">
+        <h2 id="portfolio_h2">
+            <sapn>02 portfolio</sapn>
+        </h2>
+    </div>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Pick-nic [bench-for-two]</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" ></div> <!--inline css-->
+
+    <div class="title2_explain">
+        <h4 class="title2_explain_h4">
+            <span>International Busan Design Award(IBDA) Idea Award</span>
+        </h4>
+    </div>
+
+
+
+    <!------------ Pick-nic ------------>
+
+    <div id="picknic_grid">
+      <div class="picknic_img" id="img3_div">
+          <figure> 
+              <img class="picknic_grid_img" src="img3.webp" alt="no img">
+              <figcaption>
+                  <p class="picknic_grid_p">최근 사용이 늘고 있는 아웃도어 용품 가운데 플라스틱 등 영구폐기되지 않는 소재가 많이 사용되는 것을 보고 휴대성과 친환경성을 모두 만족시킬 수 있는 방법을 고민해봤다. 조립식가구를 분리하여 포장을 최소화한 ‘flat-pack’ 가구와 프라모델 조각을 조립해 종이비행기를 만들었던 기억이 저에게 영감을 주었다. 허니콤 보드 한 장에 조립 가구 부품을 넣은 뒤 이를 떼어내 조립할 수 있다면 고민한 두 마리 토끼를 잡을 수 있을 것으로 생각했다.</p>
+              </figcaption>
+          </figure>
+      </div>
+
+      <div class="picknic_img" id="img4_div" >
+          <figure> 
+              <img class="picknic_grid_img" src="img4.webp" alt="no img">
+              <figcaption>
+                  <p class="picknic_grid_p">I was inspired by the ‘flat-pack’ furniture and my childhood memory of assembling pieces from a plastic model. Thus, furniture parts are included in one sheet of honeycomb cardboard and one can easily assemble them into a bench.</p>
+              </figcaption>
+          </figure>
+      </div>
+
+      <div class="picknic_img" id="img5_div">
+          <figure> 
+              <img class="picknic_grid_img" src="img5.webp" alt="no img">
+              <figcaption>
+                  <p class="picknic_grid_p"></p>
+              </figcaption>
+          </figure>
+      </div>
+
+      <div class="picknic_img" id="img6_div">
+          <figure> 
+              <img class="picknic_grid_img" src="img6.webp" alt="no img">
+              <figcaption>
+                  <p class="picknic_grid_p"></p>
+              </figcaption>
+          </figure>
+      </div>
+    </div>
+
+    <div id="picknic_whd">
+      <span>887*487*520 (mm)</span>
+    </div>
+
+
+    <!---------------------------------->
+
+
+    <!------------ book:chak ------------>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>book:chak</span>
+        </h2>
+    </div>
+    <div class="horizontal_line"></div> 
+
+    <div id="funded">
+        <h4 id="funded_h4">
+            <a href="https://tumblbug.com/jeso?ref=%EA%B2%80%EC%83%89%2F%ED%82%A4%EC%9B%8C%EB%93%9C" target="self" rel="noreferrer noopener" style="color: rgb(160, 167, 203);">
+                <span>433% funded in Tumblbug</span>
+            </a>
+        </h4>
+    </div>
+
+
+    <div id="bookchak_img">
+        <img src="img7.webp" alt="no img" style="width: 100%;">
+    </div>
+    <!---------------------------------->
+
+
+    <!------------ Bedtime Guardian ------------>
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>The Bedtime Guardian</span>
+        </h2>
+    </div>
+    <div class="horizontal_line"></div> 
+
+    <div class="title2_explain">
+        <h4 class="title2_explain_h4">
+            <span>The 55th Korea International Design Award winner</span>
+        </h4>
+    </div>
+
+
+    <div id="bedtime_grid">
+        <div class="bedtime_img" id="img8_div">
+            <figure>
+                <img class="bedtime_grid_img" src="img8.webp" alt="no img">
+                <figcaption>
+                    <p class="bedtime_grid_p">북유럽풍 블라인드에서 형태적 모티브를 얻은 디자인이다. 블라인드에서 햇살이 스며들어와 방의 전체적인 분위기를 따뜻하게 해주고, 창살을 움직이면서 햇살을 조절하며 방의 분위기를 전환할 수도 있는 것이 북유럽풍 블라인드의 특징이다. 햇살이 창살 사이로 스며드는 것을 가구에서도 표현한 것과 같이, 블라인드의 형태적인 특징을 살려서 소비자에게 마음의 따뜻함과 안정감을 선사한다. 이 가구는 창문의 비율로 맞춘 직사각형 형태로, 소박해 보이면서도 여러 기능성을 갖추고 있다. 또한 가구의 규모가 크지 않아서 침대 옆에 배치해도 공간을 많이 차지하지 않을뿐더러, 책꽂이, 수납공간 그리고 조명의 기능을 합니다. 아랫부분은 조명의 양과 방향을 조절하는 창살의 역할을 하지만, 이 부분을 열면 안쪽에 수납공간이 있는 반전 매력이 있다. 마지막으로, 소재를 전부 목재로 하여 친환경적인 동시에, 방 분위기를 따뜻하게 해준다.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="bedtime_img" id="img9_div">
+            <figure> 
+                <img class="bedtime_grid_img" src="img9.webp" alt="no img">
+                <figcaption>
+                    <p class="bedtime_grid_p">The main concept of the Bedtime Guardian is the Northern European window blinds. The sun shines through these window blinds, giving off a warm atmosphere throughout the room. One can also control the window blinds to adjust the sunlight and change the atmosphere of the room. These particular characteristics of the Northern European window blinds are applied to this product. With a simple rectangular shape, the Bedtime Guardian is designed with the ratio of a Northern European window. While taking up not a lot of space, it functions as a book shelf, storage space, and a lamp. Lastly, as an eco-friendly product, is it made out of wood, providing a warm atmosphere within the room.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="bedtime_img" id="img10_div">
+            <figure> 
+                <img class="bedtime_grid_img" src="img10.webp" alt="no img">
+                <figcaption>
+                    <p class="bedtime_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="bedtime_img" id="img11_div">
+            <figure> 
+                <img class="bedtime_grid_img" src="img11.webp" alt="no img">
+                <figcaption>
+                    <p class="bedtime_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>  
+    <div id="bedtime_whd">
+        <span>887*487*520 (mm)</span>
+    </div>
+
+    <!---------------------------------->
+
+
+
+    <!------------ Loi ------------>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Loi [Lean-on-it]</span>
+        </h2>
+    </div>
+    <div class="horizontal_line"></div> 
+
+    <div id="Loi_grid">
+        <div class="Loi_img" id="img12_div">
+            <figure> 
+                <img class="Loi_grid_img" src="img12.jpg" alt="no img">
+                <figcaption>
+                    <p class="Loi_grid_p">A clothing rack that is leaned on the corner. Let's make the corner space useful!</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="Loi_img" id="img13_div">
+            <figure> 
+                <img class="Loi_grid_img" src="img13.jpg" alt="no img">
+                <figcaption>
+                    <p class="Loi_grid_p">코너에 기대어 사용하는 옷걸이.<br>사람들에게 쉽사리 잊혀지는<br>코너 공간을 더 유용하게!</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="Loi_img" id="img14_div">
+            <figure> 
+                <img class="Loi_grid_img" src="img14.jpg" alt="no img">
+                <figcaption>
+                    <p class="Loi_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="Loi_whd">
+        <span>810*387*1647 (mm)</span>
+    </div>
+    <!---------------------------------->
+
+
+    <!------------ Express ------------>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>The Express-o</span>
+        </h2>
+    </div>
+    <div class="horizontal_line"></div>
+
+    <div class="title2_explain">
+        <h4 class="title2_explain_h4">
+            <span>The 16th Gagu Design Award honorable mention</span>
+        </h4>
+    </div>
+
+    <div id="Express_grid">
+        <div class="Express_img" id="img15_div">
+            <figure> 
+                <img class="Express_grid_img" src="img15.jpg" alt="no img">
+                <figcaption>
+                    <p class="Express_grid_p">더 에스프레소는 공간 활용을 더욱 중요시하는 요즘 세대의 싱글족을 위한 가구이다. 이 가구는 공간을 많이 차지하지 않으면서도, 한 공간 안에서 여러 기능을 갖추고 있다. 쉽게 어지럽혀지는 커피 테이블 속에 충분한 수납공간이 있어서, 겉으로 보았을 때 깔끔함을 유지한다. 또한 대체적으로 낮은 커피 테이블에서 사용자가 편하게 작업할 수 있도록 상판 일부분을 높낮이 조절이 가능하게 하여 간이 테이블로도 사용할 수 있다. 사용자의 생활패턴을 고려하여, 주방으로 이동할 필요 없이 차가운 음료나 음식을 손쉽게 구할 수 있도록 테이블 안에 미니 냉장고를 배치했다. 이렇게 여러 기능들을 테이블에 적용하여, 불필요한 동선을 최소화한 것이 더 에스프레소의 특징이다.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="Express_img" id="img16_div">
+            <figure> 
+                <img class="Express_grid_img" src="img16.jpg" alt="no img">
+                <figcaption>
+                    <p class="Express_grid_p">The Express-O is for those who enjoy their “single life”. For these people, who value space utilization, this coffee table has multiple functions without taking up a lot of space. For instance, there is enough storage space inside the table to maintain a clean exterior surface. One can also control the height of a specific part of the table top to work on the table with more comfort. Considering the life pattern of the consumers, a mini-cooler is located inside the table so that people do not have to go to the kitchen to get an ice-cold beverage or food. These following functions are applied to the table to minimize unnecessary movements and to utilize space.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="Express_img" id="img17_div">
+            <figure> 
+                <img class="Express_grid_img" src="img17.jpg" alt="no img">
+                <figcaption>
+                    <p class="Express_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="Express_whd">
+        <span>1190*495*390 (mm)</span>
+    </div>
+
+
+    <!---------------------------------->
+
+    <!------------ puzzle ------------>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Puzzlegrounds</span>
+        </h2>
+    </div>
+    <div class="horizontal_line"></div>
+
+    <div id="puzzle_grid">
+        <div class="puzzle_img" id="img18_div">
+            <figure> 
+                <img class="puzzle_grid_img" src="img18.jpg" alt="no img">
+                <figcaption>
+                    <p class="puzzle_grid_p">넉다운 아동 가구</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="puzzle_img" id="img19_div">
+            <figure> 
+                <img class="puzzle_grid_img" src="img19.jpg" alt="no img">
+                <figcaption>
+                    <p class="puzzle_grid_p">A table and side table for children. The playful colors and shape attract the children’s interest. A puzzle transforming into a table is the main concept. It is also a knock down furniture that requires no hardware, making it easier for parents to assemble and take it apart.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="puzzle_img" id="img20_div">
+            <figure>
+                <img class="puzzle_grid_img" src="img20.jpg" alt="no img">
+                <figcaption>
+                    <p class="puzzle_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="puzzle_whd"></div>
+
+    <!---------------------------------->
+
+    <!------------ Tableware ------------>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Tableware design</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" ></div> 
+
+    <div id="tableware_grid">
+        <div class="tableware_img" id="img21_div">
+            <figure> 
+                <img class="tableware_grid_img" src="img21.jpg" alt="no img">
+                <figcaption>
+                    <p class="tableware_grid_p">나뭇잎을 모티브로 디자인한 테이블 웨어<br><br>tableware inspired by leaves</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="tableware_img" id="img22_div" >
+            <figure>
+                <img class="tableware_grid_img" src="img22.jpg" alt="no img">
+                <figcaption>
+                    <p class="tableware_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="tableware_img" id="img23_div">
+            <figure> 
+                <img class="tableware_grid_img" src="img23.jpg" alt="no img">
+                <figcaption>
+                    <p class="tableware_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="tableware_whd"></div>
+
+    <!---------------------------------->
+
+    <!------------ Tableware ------------>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Re-Dam series</span>
+        </h2>
+    </div>
+    <div class="horizontal_line"></div> 
+
+    <div id="redam_grid">
+        <div class="redam_img" id="img24_div" >
+            <figure > 
+                <img class="redam_grid_img" src="img24.jpg" alt="no img">
+                <figcaption>
+                    <p class="redam_grid_p">한국 전통 가구 '고비'를 재해석한 와인 렉</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="redam_img" id="img25_div">
+            <figure>
+                <img class="redam_grid_img" src="img25.jpg" alt="no img">
+                <figcaption>
+                    <p class="redam_grid_p">wine rack<br>inspired from the Korean traditional furniture,<br>Go-bi</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="redam_whd">
+        <span>200*150*936 (mm)<br>scale: 1/4</span>
+    </div>
+
+
+
+    <!---------------------------------->
+
+
+    
+
+    <div class="vertical_line"></div>
+
+    <div id="anchor_bio" style="width: 100%; height: 1px;"></div>   
+
+    <div style="width: 100%; height: 21px; margin-bottom: 53px;"></div>
+
+    <div style="margin-bottom: 50px;">
+        <h2 style="text-align: center;">
+            <span id="bio">03 purchase</span>
+        </h2>
+    </div>
+
+    <!------------ bio  ------------>
+
+    <div class="bio_outline">
+
+        <div class="sell_product">
+            <img src="img9.webp" class="product_img" alt="no img">
+            <div class="product_info">
+              <h1>The Bedtime Guardian</h1>
+              <p>price: 150 point</p>
+              <button class="button_buy" id="button_buy1">Save Purchase</button>
+            </div>
+        </div>
+
+        <div class="sell_product">
+            <img src="img16.webp" class="product_img" alt="no img">
+            <div class="product_info">
+              <h1>The Express-o</h1>
+              <p>price: 500 point</p>
+              <button class="button_buy" id="button_buy2">Save Purchase</button>
+            </div>
+        </div>
+
+        <div class="sell_product">
+            <img src="img18.webp" class="product_img" alt="no img">
+            <div class="product_info">
+              <h1>Puzzlegrounds</h1>
+              <p>price: 400 point</p>
+              <button class="button_buy" id="button_buy3">Save Purchase</button>
+            </div>
+        </div>
+
+    </div>    
+
+    
+    <div class="button_charge" id="button_charge">
+        <img src="img_charge.png" alt="no img">
+    </div>
+
+
+    <div class="vertical_line" style="margin-top: 0;"></div>
+
+    <div id="anchor_contack" style="width: 100%; height: 1px;"></div>
+
+    <div>
+        <h2 style="text-align: center;">
+            <span id="contact">04 contact</span>
+        </h2>
+    </div>
+
+
+    <div id="mail">
+        <a href="mailto:soyoungpark0720@gmail.com" target="_blank">
+            soyoungpark0720@gmail.com
+        </a>
+    </div>
+
+
+    <div id="blank" style="width: 100%; height: 200px;"></div>
+
+    <div class="instagram" id="information">
+        <div class="information_left" id="information_left"></div>
+
+        <div class="information_right" id="information_right"></div>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

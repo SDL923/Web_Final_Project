@@ -1,0 +1,115 @@
+
+.main_container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    
+    background-color: white;
+
+    text-align: center;
+}
+
+
+.main_container h1{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.input_num{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
+.point_table{
+    width: 96%; 
+    margin-left: 2%; 
+    margin-top: 5px; 
+    margin-bottom: 50px;
+    
+    font-size: 11px; 
+}
+
+
+.point_plus{
+    width: 25%; 
+    height: 35px;  
+
+    font-size: 17px;
+    text-align: center; 
+    line-height: 35px;
+    /* font-weight: bold;  */
+    color: rgb(29, 29, 29); 
+    
+    border: 1px solid rgb(200, 200, 200); 
+    border-collapse : collapse;
+    cursor : pointer
+}
+
+.point_plus:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+
+.total{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgb(140, 140, 140);
+}
+
+
+.button_buy{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    /* margin-left: auto; */
+
+    background-color: rgb(64, 102, 255);
+    color: white;
+    border: none;   
+
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 40px;
+    border-radius: 4px;
+    
+}
+
+.button_buy:hover {
+    background-color: rgb(180, 195, 255);
+}
+
+.inputBox{
+    width: 150px;
+}
+
+
+
+
+
+
+
+

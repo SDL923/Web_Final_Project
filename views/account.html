@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="account.css" type="text/css">
+
+    <style>
+        body {
+          margin: 0;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div class="main_div">
+        <h1>Account List</h1>
+
+        <div id="input_div" class="input_div">
+
+            <label for="loginUsername">Password:</label>
+            <input type="text" class="inputBox" id="input_pw" required>
+        
+            <button type="button" class="button_show" id="button_show">SHOW</button>
+          </div>
+
+        </div>
+
+
+        <table class="dataTable" id="dataTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Password</th>
+                <th>Point</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <!-- error message -->
+        <div class="error" id="error"></div>
+
+
+    </div>
+
+    <script src="account.js"></script>
+
+    
+</body>
+</html>
